@@ -1,0 +1,16 @@
+D:\Projetos\poo\POO-2\POO-2\bin\Debug\net5.0\POO-2.exe
+D:\Projetos\poo\POO-2\POO-2\bin\Debug\net5.0\POO-2.deps.json
+D:\Projetos\poo\POO-2\POO-2\bin\Debug\net5.0\POO-2.runtimeconfig.json
+D:\Projetos\poo\POO-2\POO-2\bin\Debug\net5.0\POO-2.runtimeconfig.dev.json
+D:\Projetos\poo\POO-2\POO-2\bin\Debug\net5.0\POO-2.dll
+D:\Projetos\poo\POO-2\POO-2\bin\Debug\net5.0\ref\POO-2.dll
+D:\Projetos\poo\POO-2\POO-2\bin\Debug\net5.0\POO-2.pdb
+D:\Projetos\poo\POO-2\POO-2\obj\Debug\net5.0\POO-2.csproj.AssemblyReference.cache
+D:\Projetos\poo\POO-2\POO-2\obj\Debug\net5.0\POO-2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\poo\POO-2\POO-2\obj\Debug\net5.0\POO-2.AssemblyInfoInputs.cache
+D:\Projetos\poo\POO-2\POO-2\obj\Debug\net5.0\POO-2.AssemblyInfo.cs
+D:\Projetos\poo\POO-2\POO-2\obj\Debug\net5.0\POO-2.csproj.CoreCompileInputs.cache
+D:\Projetos\poo\POO-2\POO-2\obj\Debug\net5.0\POO-2.dll
+D:\Projetos\poo\POO-2\POO-2\obj\Debug\net5.0\ref\POO-2.dll
+D:\Projetos\poo\POO-2\POO-2\obj\Debug\net5.0\POO-2.pdb
+D:\Projetos\poo\POO-2\POO-2\obj\Debug\net5.0\POO-2.genruntimeconfig.cache
