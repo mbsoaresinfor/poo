@@ -8,5 +8,9 @@ namespace POO_1
 {
     class NaciolidadesServices
     {
+        public Boolean isBrasileiro(Pessoa pessoa)
+        {
+            return pessoa.Equals("brasil");
+        }
     }
 }

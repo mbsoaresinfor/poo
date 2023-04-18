@@ -15,10 +15,6 @@ namespace POO_1
         int altura { get; set; }
         string sexo { get; set; }
 
-        public Boolean isBrasileiro()
-        {
-            return nome.Equals("brasil");
-        }
-
+        
     }
 }

@@ -8,5 +8,15 @@ namespace POO_1
 {
     class PessoaService
     {
+        
+        public Boolean isBrasileiro(Pessoa pessoa)
+        {
+            return pessoa.Equals("brasil");
+        }
+
+        public Boolean isIdoso(int idade)
+        {
+            return idade >= 60;
+        }
     }
 }
