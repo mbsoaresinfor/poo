@@ -6,17 +6,33 @@ namespace POO_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            string s = new string("marcelo");
-            Boolean b = 3 > 1 && 1 > 5;
-            Console.WriteLine(b);
-            String valor = Console.ReadLine();
-            if(isEmpty(valor) { 
+            Pessoa p1 = new Pessoa();
+            Console.WriteLine(p1.nome);
+            p1.nome = "marcelo";
+            p1.idade = 30;
+            Console.WriteLine(p1.nome);
+            Console.WriteLine(p1.idade);
+            Console.WriteLine(p1.eMaiorIdade());
 
-            }
+            Pessoa p2 = new Pessoa();
+            p2.nome = "MARCELO";
+            p2.idade = 17;
+            Console.WriteLine(p2.nome);
+            Console.WriteLine(p2.idade);
+            Console.WriteLine(p2.eMaiorIdade());
+
+            Console.WriteLine(p1.Equals(p2));
+
+            Console.WriteLine("O nome da pessoa é " + p1.nome +
+                " e a idade é " + p1.idade);
+            Console.WriteLine("O nome da pessoa é " + p2.nome +
+                " e a idade é " + p2.idade);
+            Console.WriteLine(p1);
+            Console.WriteLine(p2);
 
 
-         }
+
+        }
 
         public static bool isEmpty(String valor)
         {
