@@ -49,9 +49,11 @@ namespace POO_3
             Console.WriteLine($"o nome do cachrro e {c1.nome} e sua racao {c1.racao}");
             Console.WriteLine($"o nome do cachrro e {c2.nome} e sua racao {c2.racao}");
             c1.nome = "";
-            Console.WriteLine(c1);
+            int idade = 15;
+            Console.WriteLine(idade);
             Console.WriteLine(c2);
-
+            
+            
         }
         public static int fatorial(int n)
         {
