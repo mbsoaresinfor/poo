@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace POO_2.entidades
 {
-    public class Cachorro
+     public class Cachorro
     {
-        public String nome { get; set; }
+        public String nome { get ; set; }
         public String racao { get; set; }
         public long peso { get; set; }
 
         public void late()
         {
+            
             Console.WriteLine("o dog " + nome + " está latindo");
         }
 
