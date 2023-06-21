@@ -11,8 +11,8 @@ namespace POO_2.repository
         string ip;
         string url;
 
-        public BancoDados() { }
 
+        public BancoDados() { }
         public BancoDados(string ip, string url)
         {
             this.ip = ip;
@@ -20,6 +20,11 @@ namespace POO_2.repository
         }
 
         public void conectar()
+        {
+            Console.WriteLine($"conectando no banco de dados de ip {ip} e url {url}");
+        }
+
+        public void conectar(String ip)
         {
             Console.WriteLine($"conectando no banco de dados de ip {ip} e url {url}");
         }

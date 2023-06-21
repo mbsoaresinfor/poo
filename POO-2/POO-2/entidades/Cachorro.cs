@@ -12,6 +12,18 @@ namespace POO_2.entidades
         public String racao { get; set; }
         public long peso { get; set; }
 
+        public Cachorro() { } // construtor padrao, default
+
+        public Cachorro(String nome)
+        {
+            this.nome = nome;
+        }
+
+        public Cachorro(ParametrosCachorro parametrosCachorro)
+        {
+            this.nome = parametrosCachorro.nome;
+        }
+
         public void late()
         {
             

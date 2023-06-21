@@ -33,12 +33,36 @@ namespace POO_2
             //Console.WriteLine(dog2);
 
             //Cachorro c = new Cachorro();
-            BancoDados bancoDados = new BancoDados("192.168.72.2","mysql/abc");
+            //BancoDados bancoDados = new BancoDados();
+            //bancoDados.conectar();
+
+
+            //Pessoa pessoa = new Pessoa("pedro",15);
+
+            //PessoaRepository pessoaRepository = new PessoaRepository();
+
+            //Pessoa p = new Pessoa("marcelo", 04);
+
+            //Cachorro cachorro = new Cachorro();
+            //cachorro.nome = "kksdksds";
+            //cachorro.peso = 555;
+            //cachorro.racao = "sdsdsdsd";
+
+            Pessoa pessoa = new Pessoa();
+            pessoa.setNomeRua("cachoerinha");
+
+            BancoDados bancoDados = new BancoDados();
+            bancoDados.conectar("192.168.72.5");
             bancoDados.conectar();
 
-            Pessoa pessoa = new Pessoa("pedro",15);            
-            
-            
+            Calculadora calculadora = new Calculadora();
+            calculadora.somar(1, 1); // int
+            calculadora.somar(2d, 2d); // double
+            calculadora.somar(2f, 2); // float
+
+
+
+
         }
     }
 }

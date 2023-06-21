@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace POO_2.repository
 {
-    class PessoaRepository
+    public class PessoaRepository
     {
+        public PessoaRepository(int a) { }
+
+        public PessoaRepository() { }
     }
 }
