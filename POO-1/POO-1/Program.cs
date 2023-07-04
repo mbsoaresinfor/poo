@@ -49,6 +49,10 @@ namespace POO_1
         {
             foreach (Conta conta in listConta)
             {
+                if(conta is ContaCorrente)
+                {
+                    ContaCorrente cc = (ContaCorrente)conta;                    
+                }
                 Console.WriteLine($"calculo saldo [{conta.ToString()}]  = {conta.calcularSaldo()}");
             }
         }
