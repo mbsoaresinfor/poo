@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace POO_1
 {
@@ -31,7 +32,25 @@ namespace POO_1
             Console.WriteLine(p2);
 
 
+            Conta contaCorrente = new ContaCorrente(12);
+            contaCorrente.calcularSaldo();
 
+            Conta contaPoupanca = new ContaPoupanca(10);
+            contaPoupanca.calcularSaldo();
+
+            List<Conta> listaconta = new List<Conta>();
+            listaconta.Add(contaPoupanca);
+            listaconta.Add(contaCorrente);
+
+            mostrar(listaconta);
+        }
+
+        public static void mostrar(List<Conta> listConta)
+        {
+            foreach (Conta conta in listConta)
+            {
+                Console.WriteLine($"calculo saldo [{conta.ToString()}]  = {conta.calcularSaldo()}");
+            }
         }
 
         public static bool isEmpty(String valor)
